@@ -50,7 +50,7 @@ class UserService {
 
   Future<String?> loginWithGoogle() async {
     try {
-      final url = Uri.http('localhost:3333', '/auth/google');
+      final url = Uri.http('https://api.fridsch.mrief.dev', '/auth/google');
       final result = Uri.parse(await FlutterWebAuth.authenticate(
               url: url.toString(), callbackUrlScheme: 'fridsch'))
           .queryParameters['token']!;

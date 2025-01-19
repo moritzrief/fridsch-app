@@ -105,7 +105,7 @@ class _StorageDetailScreenState extends State<StorageDetailScreen> {
               child: Row(
                 children: [
                   Expanded(
-                      child: SearchBar(
+                      child: FridschSearchBar(
                     callback: searchCallback,
                     hint: 'Search',
                   )),

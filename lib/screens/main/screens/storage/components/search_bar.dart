@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../../../../../constants.dart';
 
-class SearchBar extends StatelessWidget {
-  const SearchBar({
+class FridschSearchBar extends StatelessWidget {
+  const FridschSearchBar({
     super.key,
     required this.callback, required this.hint,
   });

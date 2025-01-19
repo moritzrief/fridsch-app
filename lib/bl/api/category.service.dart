@@ -2,7 +2,6 @@ import 'package:dio/dio.dart';
 import 'package:fridsch_app/bl/api/connection.service.dart';
 import 'package:fridsch_app/bl/api/household.service.dart';
 import 'package:fridsch_app/bl/api/models/category.dart';
-import 'package:fridsch_app/bl/api/models/household.dart';
 import 'package:fridsch_app/bl/api/user.service.dart';
 
 class CategoryService {

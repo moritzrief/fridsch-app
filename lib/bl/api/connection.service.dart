@@ -6,4 +6,4 @@ Dio kDio = Dio(BaseOptions(
   receiveTimeout: const Duration(seconds: 3),
 ));
 
-const String kBaseUrl = 'http://localhost:3333/';
+const String kBaseUrl = 'https://api.fridsch.mrief.xyz/';

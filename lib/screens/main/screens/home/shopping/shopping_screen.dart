@@ -147,7 +147,7 @@ class _ShoppingDetailScreenState extends State<ShoppingDetailScreen> {
               child: Row(
                 children: [
                   Expanded(
-                      child: SearchBar(
+                      child: FridschSearchBar(
                     callback: searchCallback,
                     hint: 'Search',
                   )),
